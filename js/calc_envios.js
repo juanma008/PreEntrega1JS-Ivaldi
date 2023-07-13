@@ -1,24 +1,28 @@
-let zona = prompt ("En que barrio vivis??? palermo, villa pueyrredon, devoto o belgrano");
+const zona = prompt ("En que barrio vivis??? palermo, villa pueyrredon, devoto o belgrano");
 
 switch(zona) {
     
     case "palermo":
-    console.log("el valor del envio es $500");
+    alert("el valor del envio es $500");
+    console.log("cobrar envio")
     break;
     
     case "villa pueyrredon":
-    console.log("el envio es gratuito");
+    alert("el envio es $0");
+    console.log("No cobrar envio")
     break;
 
     case "devoto":
-    console.log("el valor del envio es $300");
+    alert("el valor del envio es $300");
+    console.log("cobrar envio")
     break;
 
     case "belgrano":
-    console.log("el valor del envio es $400");
+    alert("el valor del envio es $400");
+    console.log("cobrar envio")
     break;
 
     default:
-        console.log("El barrio ingresado es incorrecto")
+        alert("El barrio ingresado es incorrecto , vuelve a intentarlo")
 }
 
