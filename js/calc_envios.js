@@ -25,4 +25,3 @@ switch(zona) {
     default:
         alert("El barrio ingresado es incorrecto , vuelve a intentarlo")
 }
-
